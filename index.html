@@ -7,7 +7,7 @@
 
     <!-- ===== META TAGS FOR SOCIAL SHARING ===== -->
     <meta property="og:title" content="Abd Elrahman Esmat — Cybersecurity & Network Engineer">
-    <meta property="og:description" content="18 certified courses in Cybersecurity, Networking, Python, Data & AI. Cisco, Huawei, ITI, Edraak & more.">
+    <meta property="og:description" content="20 certified courses in Cybersecurity, Networking, Python, Java, Data & AI. Cisco, Huawei, ITI, Edraak & more.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://bdalrhmnsmt156-eng.github.io/portfolio2/">
     <meta name="twitter:card" content="summary_large_image">
@@ -51,6 +51,18 @@
         /* Ensure all interactive elements use the same custom cursor */
         a, button, .chip, .cert-item, .skill-card, .back-top, .cert-title, .top-bar a, .modal-close {
             cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="16" cy="16" r="10" stroke="%23E4002B" stroke-width="1.5" fill="none" /><circle cx="16" cy="16" r="2" fill="%23E4002B" /><circle cx="16" cy="16" r="12" stroke="%23E4002B" stroke-width="0.5" fill="none" stroke-dasharray="2 2"/><line x1="16" y1="2" x2="16" y2="6" stroke="%23E4002B" stroke-width="2"/><line x1="16" y1="26" x2="16" y2="30" stroke="%23E4002B" stroke-width="2"/><line x1="2" y1="16" x2="6" y2="16" stroke="%23E4002B" stroke-width="2"/><line x1="26" y1="16" x2="30" y2="16" stroke="%23E4002B" stroke-width="2"/></svg>') 16 16, crosshair;
+        }
+
+        /* ===== BACKGROUND PARTICLES (RED DOTS) ===== */
+        #bg-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.6;
         }
 
         /* ===== BOOT SCREEN ===== */
@@ -205,6 +217,7 @@
             overflow: hidden;
             padding: 50px 0 50px;
             border-bottom: 1px solid var(--line);
+            z-index: 2;
         }
         #matrix {
             position: absolute;
@@ -878,6 +891,7 @@
                 color: #111 !important;
                 cursor: default !important;
             }
+            #bg-particles,
             .scanner,
             #matrix,
             .back-top,
@@ -1029,7 +1043,8 @@
                 border-right: none !important;
             }
             #matrix,
-            .scanner {
+            .scanner,
+            #bg-particles {
                 display: none;
             }
             #boot-overlay {
@@ -1039,6 +1054,9 @@
     </style>
 </head>
 <body>
+
+    <!-- ===== BACKGROUND PARTICLES (RED DOTS) ===== -->
+    <canvas id="bg-particles"></canvas>
 
     <!-- ===== BOOT SCREEN ===== -->
     <div id="boot-overlay" role="status" aria-label="System booting">
@@ -1066,7 +1084,7 @@
                 <span class="label">⌨</span>
                 <a href="https://github.com/bdalrhmnsmt156-eng" target="_blank" rel="noopener">github.com/bdalrhmnsmt156-eng</a>
             </div>
-            <span style="color:var(--muted);font-size:11px;letter-spacing:.04em;opacity:.6;">◆ 18 credentials</span>
+            <span style="color:var(--muted);font-size:11px;letter-spacing:.04em;opacity:.6;">◆ 20 credentials</span>
         </div>
     </div>
 
@@ -1076,12 +1094,12 @@
         <div class="wrap header-inner">
             <p class="eyebrow"><span class="sq"></span><span class="eyebrow-text">root@secure-network:~$ whoami</span></p>
             <h1><span class="line">ABD ELRAHMAN</span><br><span class="line">ESMAT</span></h1>
-            <p class="role">// Networking · Cybersecurity · Python Programming · Data Analysis</p>
+            <p class="role">// Networking · Cybersecurity · Python · Java · Data Analysis</p>
             <div class="underline"><span class="fill"></span><span class="packet"></span></div>
             <p class="about">
                 A steadily built foundation in computing, networking, cybersecurity, and programming —
-                backed by <strong>18 certified courses</strong> from Cisco Networking Academy, Huawei ICT Academy,
-                ITI Mahara-Tech, Edraak, HP LIFE, and more. I am currently a <strong>second-year student</strong> at the
+                backed by <strong>20 certified courses</strong> from Cisco Networking Academy, Huawei ICT Academy,
+                ITI Mahara-Tech, Edraak, HP LIFE, Sololearn, and more. I am currently a <strong>second-year student</strong> at the
                 <strong>Faculty of Computers and Information, Egyptian E-Learning University (EELU)</strong>,
                 with a strong passion for deepening my expertise in <strong>cybersecurity</strong>.
                 Below is a clear summary of these skills and the credentials behind them.
@@ -1124,6 +1142,8 @@
                         <span class="chip">Python Essentials 1</span>
                         <span class="chip">Python Essentials 2</span>
                         <span class="chip">Python Programming Basics</span>
+                        <span class="chip">Introduction to Java</span>
+                        <span class="chip">Java Intermediate</span>
                     </div>
                 </div>
 
@@ -1170,10 +1190,10 @@
                         <strong>Motivated and detail-oriented second-year student</strong> at the
                         <strong>Faculty of Computers and Information, Egyptian E-Learning University (EELU)</strong>.
                         Passionate about studying <strong>cybersecurity</strong>, with hands-on, certified training across
-                        networking, cybersecurity, Python programming, and data analysis. Built a broad technical foundation
-                        through <strong>18 completed courses</strong> from Cisco Networking Academy, Huawei ICT Academy,
-                        ITI Mahara-Tech, Edraak, HP LIFE, and SoloLearn. Comfortable working across Linux systems,
-                        network device configuration, and scripting, with a strong interest in growing into a
+                        networking, cybersecurity, Python, Java, and data analysis. Built a broad technical foundation
+                        through <strong>20 completed courses</strong> from Cisco Networking Academy, Huawei ICT Academy,
+                        ITI Mahara-Tech, Edraak, HP LIFE, Sololearn, and more. Comfortable working across Linux systems,
+                        network device configuration, and multiple programming languages, with a strong interest in growing into a
                         cybersecurity analyst or network engineering role.
                     </p>
                     <ul>
@@ -1181,7 +1201,7 @@
                         <li><strong>Email:</strong> bdalrhmnsmt156@gmail.com</li>
                         <li><strong>LinkedIn:</strong> /in/abd-elrahman-osmat</li>
                         <li><strong>GitHub:</strong> bdalrhmnsmt156-eng</li>
-                        <li><strong>Focus:</strong> Cybersecurity · Network Engineering · Python</li>
+                        <li><strong>Focus:</strong> Cybersecurity · Network Engineering · Python · Java</li>
                         <li><strong>Languages:</strong> Arabic (native), English (professional)</li>
                     </ul>
                 </div>
@@ -1190,15 +1210,15 @@
                     <ul>
                         <li><strong>Current:</strong> 2nd year student at EELU, Faculty of Computers and Information</li>
                         <li><strong>Passion:</strong> Cybersecurity research and network defense</li>
-                        <li><strong>18</strong> certified courses across 5 domains</li>
+                        <li><strong>20</strong> certified courses across 5 domains</li>
                         <li><strong>Cisco</strong> — Junior Cybersecurity Analyst, Networking, Python</li>
                         <li><strong>Huawei</strong> — Network Security, Python Programming</li>
+                        <li><strong>Sololearn</strong> — Introduction to Java, Java Intermediate</li>
                         <li><strong>ITI Mahara-Tech</strong> — Cybersecurity, DB, Computational Thinking</li>
                         <li><strong>Edraak</strong> — Cyber Security Specialization, ICDL</li>
                         <li><strong>HP LIFE</strong> — Data Science &amp; Analytics</li>
-                        <li><strong>Sololearn</strong> — SQL</li>
                         <li>Hands-on with <strong>Ubuntu Linux</strong>, <strong>network configuration</strong>,
-                            and <strong>Python</strong> scripting for security automation</li>
+                            <strong>Python</strong>, and <strong>Java</strong> for security automation and application development</li>
                     </ul>
                 </div>
             </div>
@@ -1206,7 +1226,7 @@
 
         <!-- FOOTER -->
         <footer>
-            <p>◆ 18 credentials · updated 2026 · built with <span style="color:var(--red);">♥</span></p>
+            <p>◆ 20 credentials · updated 2026 · built with <span style="color:var(--red);">♥</span></p>
         </footer>
     </div>
 
@@ -1231,6 +1251,59 @@
             'use strict';
 
             var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+            // ===== BACKGROUND PARTICLES (RED DOTS) =====
+            var particleCanvas = document.getElementById('bg-particles');
+            if (particleCanvas && !reduce) {
+                var pCtx = particleCanvas.getContext('2d');
+                var pWidth, pHeight;
+                var particles = [];
+                var PARTICLE_COUNT = 75;
+
+                function resizeParticles() {
+                    pWidth = window.innerWidth;
+                    pHeight = window.innerHeight;
+                    particleCanvas.width = pWidth;
+                    particleCanvas.height = pHeight;
+                }
+                window.addEventListener('resize', resizeParticles);
+                resizeParticles();
+
+                function initParticles() {
+                    particles = [];
+                    for (var i = 0; i < PARTICLE_COUNT; i++) {
+                        particles.push({
+                            x: Math.random() * pWidth,
+                            y: Math.random() * pHeight,
+                            vx: (Math.random() - 0.5) * 0.25,
+                            vy: (Math.random() - 0.5) * 0.25,
+                            radius: Math.random() * 3 + 1.5,
+                            alpha: Math.random() * 0.5 + 0.15
+                        });
+                    }
+                }
+                initParticles();
+
+                function drawParticles() {
+                    pCtx.clearRect(0, 0, pWidth, pHeight);
+                    for (var i = 0; i < particles.length; i++) {
+                        var p = particles[i];
+                        p.x += p.vx;
+                        p.y += p.vy;
+
+                        // boundary bounce
+                        if (p.x < 0 || p.x > pWidth) p.vx *= -1;
+                        if (p.y < 0 || p.y > pHeight) p.vy *= -1;
+
+                        pCtx.beginPath();
+                        pCtx.arc(p.x, p.y, p.radius, 0, Math.PI * 2);
+                        pCtx.fillStyle = 'rgba(228, 0, 43, ' + p.alpha + ')';
+                        pCtx.fill();
+                    }
+                    requestAnimationFrame(drawParticles);
+                }
+                drawParticles();
+            }
 
             // ===== BOOT SCREEN =====
             var bootOverlay = document.getElementById('boot-overlay');
@@ -1344,7 +1417,7 @@
                 });
             });
 
-            // ===== CERTIFICATE DATA =====
+            // ===== CERTIFICATE DATA (UPDATED WITH JAVA) =====
             var certData = [{
                 group: 'Cybersecurity',
                 items: [{
@@ -1408,6 +1481,16 @@
                     issuer: 'Huawei ICT Academy',
                     date: '11.07.2026',
                     desc: 'Practical Python programming with a focus on automation, scripting, and solving real-world problems.'
+                }, {
+                    title: 'Introduction to Java',
+                    issuer: 'Sololearn',
+                    date: '13.05.2026',
+                    desc: 'Foundational Java course covering core programming concepts: <strong>variables, data types, conditional statements (if/else), loops (for/while), and methods (functions)</strong>. Builds a solid base for object-oriented programming.'
+                }, {
+                    title: 'Java Intermediate',
+                    issuer: 'Sololearn',
+                    date: '14.08.2026',
+                    desc: 'Intermediate Java programming focusing on <strong>Object-Oriented Programming (OOP)</strong> principles such as <strong>classes, objects, inheritance, and abstraction</strong>. Also covers advanced topics including <strong>exception handling (try/catch), collections (ArrayList), multithreading, and file I/O</strong> operations.'
                 }]
             }, {
                 group: 'Data & AI',
@@ -1712,9 +1795,7 @@
                 els.forEach(function(el) { observer.observe(el); });
             }
 
-            // ===== MATRIX INTERACTION: header hover already done above =====
-
-            console.log('◆ Portfolio ready — 18 credentials loaded');
+            console.log('◆ Portfolio ready — 20 credentials loaded');
         })();
     </script>
 
