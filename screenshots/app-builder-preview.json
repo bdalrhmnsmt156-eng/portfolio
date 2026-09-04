@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Abd Elrahman Esmat",
+      "hasCanvas": false,
+      "bodyTextLen": 5977,
+      "bodyTextHash": "3082c50dcf5608f9ed0952a5152453b7dcf92324e8c6626e23657e3b61747284",
+      "bodyTextPrefix": "Skip to content ABD ELRAHMAN Esmat · Portfolio Skills Projects C",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Abd Elrahman Esmat",
+      "hasCanvas": false,
+      "bodyTextLen": 5921,
+      "bodyTextHash": "653202748d349bce4fe149c815ed3d13fa53164dd2dc4b349f0486a9d99f2d1c",
+      "bodyTextPrefix": "Skip to content ABD ELRAHMAN Esmat · Portfolio root@secure-netwo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
